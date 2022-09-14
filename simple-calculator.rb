@@ -11,7 +11,6 @@ def calculate(number_1, number_2, operator)
       result = number_1 / number_2
      else
       puts "Invalid operator"
-      puts math_operator
   end
 
   return result
