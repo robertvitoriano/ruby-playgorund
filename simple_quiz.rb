@@ -19,11 +19,10 @@ def start_quiz()
     puts question.prompt
     user_answer = gets.chomp()
     if(user_answer == question.answer)
-      puts "You got it right !!"
       points +=1
     end
   end
-  puts("The Quiz is over, you got "+points.to_s+" points !")
+  puts("The Quiz is over, you got "+points.to_s+"/" + questions.length.to_s + " points !")
 end
 
 start_quiz()
