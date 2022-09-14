@@ -10,9 +10,6 @@ while !out_of_guesses
     words_used =words_used + guess + "\n"
     puts("Those are not the words: ")
     print(words_used)
-    puts(" GUESSES VARIBALE "+ guesses.to_s)
-    puts(" OUT OF GUESSES VARIBALE "+ out_of_guesses.to_s)
-
     if(guesses==0)
       out_of_guesses = true
     end
