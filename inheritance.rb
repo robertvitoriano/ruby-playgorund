@@ -14,6 +14,10 @@ class BrazilianChef < Chef
   def make_feijoada
     return "The chef makes feijoada"
   end
+  def make_sushi
+    return  "The chef makes the sushi with cream cheese"
+  end
+
 end
 
 chef = Chef.new()
